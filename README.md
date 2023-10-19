@@ -1,5 +1,8 @@
 # React + Vite
 
+![image](https://github.com/dapt4/users-react-redux-router/assets/67972962/cdb54b0d-dd35-4228-bcab-fdf98afe5912)
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
