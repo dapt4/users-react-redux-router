@@ -1,4 +1,4 @@
-// import { useGetUserByIdQuery } from '../services/index.js'
+// import { useGetUserByIdQuery } from '../services/usersApi.js'
 import { useParams } from 'react-router-dom'
 import useGetUserById from '../hooks/useGetUserById.js'
 import Button from 'react-bootstrap/Button'
@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card'
 import { Col, Container, Row } from 'react-bootstrap'
 import useNav from '../hooks/useNav.js'
 import { useDispatch } from 'react-redux'
-import { deleteUser } from '../userSlice/index.js'
+import { deleteUser } from '../userSlice/slices.js'
 
 const Detail = () => {
   const { id } = useParams()

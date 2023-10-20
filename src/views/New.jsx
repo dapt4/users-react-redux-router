@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom'
 import useGetUserById from '../hooks/useGetUserById.js'
 import { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { addUser, editUser } from '../userSlice/index.js'
+import { addUser, editUser } from '../userSlice/slices.js'
 import useNav from '../hooks/useNav.js'
 import { v4 as uuidv4 } from 'uuid'
 

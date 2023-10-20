@@ -1,6 +1,6 @@
-import { useGetUsersQuery } from '../services/index.js'
+import { useGetUsersQuery } from '../services/usersApi.js'
 import { useDispatch } from 'react-redux'
-import { addUsers } from '../userSlice/index.js'
+import { addUsers } from '../userSlice/slices.js'
 import { useEffect } from 'react'
 import UserCard from '../components/UserCard.jsx'
 import '../styles/Home.scss'
